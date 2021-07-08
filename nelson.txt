@@ -1,0 +1,63 @@
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop (main)
+$ cd ~/Desktop
+mkdir
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop (main)
+$ mkdir mytest
+cg m
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop (main)
+$ cd mytest/
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (main)
+$ git init
+Initialized empty Git repository in C:/Users/ARTHUR/Desktop/mytest/.git/
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ nelson.txt
+bash: nelson.txt: command not found
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ touch nelson.txt
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nelson.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ git add .
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ git commit -m "myfirst"
+[master (root-commit) 8e64d6f] myfirst
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nelson.txt
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ git remote add origin https://github.com/arthur-soft/myfirst.git
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (master)
+$ git branch -M main
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (main)
+$ git push -u origin main
+
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 213 bytes | 5.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/arthur-soft/myfirst.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (main)
+$
+
+ARTHUR@DESKTOP-EI38T4V MINGW64 ~/Desktop/mytest (main)
+$
